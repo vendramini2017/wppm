@@ -1,0 +1,105 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "wppm",
+        "scope": null,
+        "escapedName": "wppm",
+        "name": "wppm",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/home/lucas/projects"
+    ]
+  ],
+  "_from": "wppm@latest",
+  "_id": "wppm@1.1.0",
+  "_inCache": true,
+  "_location": "/wppm",
+  "_nodeVersion": "6.9.1",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/wppm-1.1.0.tgz_1481583076113_0.8191210872028023"
+  },
+  "_npmUser": {
+    "name": "lucasbhjf",
+    "email": "lucasbhjf@gmail.com"
+  },
+  "_npmVersion": "3.10.8",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "wppm",
+    "scope": null,
+    "escapedName": "wppm",
+    "name": "wppm",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/wppm/-/wppm-1.1.0.tgz",
+  "_shasum": "60f4b038376f699d7ac5c81d82662dc038d0a7e0",
+  "_shrinkwrap": null,
+  "_spec": "wppm",
+  "_where": "/home/lucas/projects",
+  "author": {
+    "name": "lucasbhjf"
+  },
+  "bin": {
+    "wppm": "bin/wppm.js"
+  },
+  "bugs": {
+    "url": "https://github.com/lucasbhjf/wppm/issues"
+  },
+  "dependencies": {
+    "bluebird": "3.4.6",
+    "chalk": "1.1.3",
+    "cheerio": "0.22.0",
+    "commander": "2.9.0",
+    "console.table": "0.7.0",
+    "jsonfile": "2.4.0",
+    "request": "2.79.0",
+    "senver": "0.0.0",
+    "striptags": "2.1.1",
+    "unzip": "0.1.11"
+  },
+  "description": "A Wordpress Plugin Manager",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "60f4b038376f699d7ac5c81d82662dc038d0a7e0",
+    "tarball": "https://registry.npmjs.org/wppm/-/wppm-1.1.0.tgz"
+  },
+  "gitHead": "1a2c2d41c8e31dfb1989927e1427c52b6ff3c737",
+  "homepage": "https://github.com/lucasbhjf/wppm#readme",
+  "keywords": [
+    "plugin",
+    "wordpress",
+    "manager",
+    "package",
+    "wp"
+  ],
+  "license": "MIT",
+  "main": "bin/wppm.js",
+  "maintainers": [
+    {
+      "name": "lucasbhjf",
+      "email": "lucasbhjf@gmail.com"
+    }
+  ],
+  "name": "wppm",
+  "optionalDependencies": {},
+  "preferGlobal": true,
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasbhjf/wppm.git"
+  },
+  "scripts": {
+    "test": "node tests/promises.js"
+  },
+  "version": "1.1.0"
+}
